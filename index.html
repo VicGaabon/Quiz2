@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Simple Calculator</h2>
+        <br>
+
+        <label for="operator">Enter an Operator</label>
+        <input type="text" id="operator">
+        <br>
+
+        <label for="firstNumber">Enter 1st Number</label>
+        <input type="text" id="firstNumber">
+        <br>
+
+        <label for="secondNumber">Enter 2nd Number</label>
+        <input type="text" id="secondNumber">
+        <br>
+
+        <button onclick="calc()">Submit</button>
+        
+
+    </div>
+    <div class="answer-box">
+        <h3> Answer: <span id="answer"></span></h3>
+    </div>
+    <script  src="index.js"></script>
+</body>
+</html>

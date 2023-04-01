@@ -1,0 +1,37 @@
+body {
+   box-sizing: border-box; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    border: 1px solid green;
+    padding: 20px;
+    display: flexbox;
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+}
+
+#btn {
+    color: black;
+    background-color: gray;
+    border: none;
+    padding: 10px 20px;
+
+}
+
+.container input {
+    margin-bottom: 10px;
+}
+
+.button :hover {
+    background-color: green;
+    color: black;
+}
+
+.answer-box {
+    border: 1px solid grey;
+    padding: 0 20px;
+    width: 40%;
+    margin: 0 auto;
+}
